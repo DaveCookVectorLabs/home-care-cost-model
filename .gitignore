@@ -42,6 +42,12 @@ docs/_build/
 # Session state (never commit secrets)
 SESSION_STATE.md
 
+# Internal tracking files — NEVER commit/publish these
+# (see ../CLAUDE.md "NEVER commit/publish internal tracking files")
+LIVE_URLS.md
+PUBLISH_CHECKLIST.md
+TODO.md
+
 # OS
 .DS_Store
 Thumbs.db

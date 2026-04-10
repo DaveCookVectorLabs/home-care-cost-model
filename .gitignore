@@ -48,6 +48,18 @@ LIVE_URLS.md
 PUBLISH_CHECKLIST.md
 TODO.md
 
+# Credentials and keys — NEVER commit
+.npmrc
+.pypirc
+.cargo/credentials
+.cargo/credentials.toml
+engines/nostr/nostr_keys.json
+*_keys.json
+*.pem
+*.key
+id_rsa
+id_ed25519
+
 # OS
 .DS_Store
 Thumbs.db

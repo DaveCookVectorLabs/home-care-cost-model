@@ -1,8 +1,14 @@
 {
   "name": "@davecook/home-care-cost-model",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A reference cost model for Canadian home care service-mix decisions (PSW, housekeeping, nursing) with 2026 tax relief stack and per-province subsidy eligibility.",
   "main": "engines/python/engine.py",
+  "files": [
+    "README.md",
+    "LICENSE",
+    "engines/python/engine.py",
+    "engines/python/requirements.txt"
+  ],
   "keywords": [
     "home-care",
     "psw",

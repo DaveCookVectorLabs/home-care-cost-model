@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+dist/
+build/
+
+# Rust
+engines/rust/target/
+engines/rust/Cargo.lock
+
+# Java
+engines/java/target/
+engines/java/*.iml
+
+# Ruby
+engines/ruby/.bundle/
+engines/ruby/Gemfile.lock
+
+# Elixir
+engines/elixir/_build/
+engines/elixir/deps/
+engines/elixir/.elixir_ls/
+
+# Go
+engines/go/bin/
+
+# PHP
+engines/php/vendor/
+engines/php/composer.lock
+
+# Node
+node_modules/
+
+# Sphinx
+docs/_build/
+
+# Session state (never commit secrets)
+SESSION_STATE.md
+
+# OS
+.DS_Store
+Thumbs.db

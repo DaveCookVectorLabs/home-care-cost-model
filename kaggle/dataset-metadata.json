@@ -1,0 +1,29 @@
+{
+  "title": "Home Care Cost Model — Canadian Service Mix, Rate Bands, and Tax Relief",
+  "id": "davecook1985/home-care-cost-model",
+  "licenses": [
+    {"name": "CC-BY-4.0"}
+  ],
+  "keywords": [
+    "home care",
+    "personal support worker",
+    "psw",
+    "aging in place",
+    "canada",
+    "health policy",
+    "tax credit",
+    "cost model"
+  ],
+  "subtitle": "Scope of practice, subsidised program coverage, and tax relief sensitivity across Canadian jurisdictions, 2026",
+  "description": "Open dataset companion to the Home Care Cost Model working paper. Eight CSVs spanning hand-curated reference tables for Canadian home care scope of practice, 2026 tax parameters, and provincial subsidised programs, plus engine-derived scenario grids totalling roughly 9,200 rows. All monetary values in CAD indexed to the 2026 taxation year. See the accompanying working paper for methodology and data sources. Synthetic scenarios are deterministic with random.seed(42) and must not be cited as empirical observations.",
+  "resources": [
+    {"path": "home_care_services_canada.csv", "description": "Scope of practice and private-pay rate bands, 13 jurisdictions × 8 service categories."},
+    {"path": "home_care_tax_parameters_2026.csv", "description": "2026 federal and provincial tax parameters for METC, DTC, CCC, VAC VIP."},
+    {"path": "home_care_subsidy_programs.csv", "description": "Provincial and territorial subsidised home care programs."},
+    {"path": "home_care_scenarios.csv", "description": "5,000 synthetic household scenarios with engine outputs."},
+    {"path": "home_care_per_province_rate_bands.csv", "description": "CPI-adjusted per-province rate bands 2019–2026."},
+    {"path": "home_care_cost_model_archetypes.csv", "description": "Engine outputs for a canonical archetype grid."},
+    {"path": "home_care_tax_relief_sensitivity.csv", "description": "Tax credit sensitivity grid across income bands."},
+    {"path": "home_care_subsidy_gap.csv", "description": "Cross-province subsidy gap analysis."}
+  ]
+}

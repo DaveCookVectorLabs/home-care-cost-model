@@ -1,0 +1,16 @@
+[package]
+name = "home-care-cost-model-engine"
+version = "0.1.0"
+edition = "2021"
+authors = ["Dave Cook <dave@binx.ca>"]
+description = "Reference cost model for Canadian home care service-mix decisions (PSW, housekeeping, nursing) with 2026 tax relief stack and per-province subsidy eligibility."
+license = "MIT"
+readme = "../../README.md"
+repository = "https://github.com/DaveCookVectorLabs/home-care-cost-model"
+homepage = "https://github.com/DaveCookVectorLabs/home-care-cost-model"
+keywords = ["home-care", "psw", "aging-in-place", "canada", "health-policy"]
+categories = ["science", "command-line-utilities"]
+
+[[bin]]
+name = "home-care-cost-model"
+path = "src/main.rs"

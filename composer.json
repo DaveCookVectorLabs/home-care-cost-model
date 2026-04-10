@@ -1,0 +1,29 @@
+{
+    "name": "davecook/home-care-cost-model",
+    "description": "A reference cost model for Canadian home care service-mix decisions (PSW, housekeeping, nursing) with 2026 tax relief stack and per-province subsidy eligibility.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dave Cook",
+            "email": "dave@binx.ca"
+        }
+    ],
+    "keywords": [
+        "home-care",
+        "psw",
+        "aging-in-place",
+        "canada",
+        "cost-model",
+        "tax-credit"
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DaveCook\\HomeCareCostModel\\": "engines/php/src/"
+        }
+    },
+    "homepage": "https://github.com/DaveCookVectorLabs/home-care-cost-model"
+}

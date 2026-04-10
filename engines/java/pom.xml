@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>io.github.davecookvectorlabs</groupId>
+    <artifactId>home-care-cost-model-engine</artifactId>
+    <version>0.1.0</version>
+    <packaging>jar</packaging>
+    <name>Home Care Cost Model Engine</name>
+    <description>Reference cost model for Canadian home care service-mix decisions (PSW, housekeeping, nursing) with 2026 tax relief stack and per-province subsidy eligibility.</description>
+    <url>https://github.com/DaveCookVectorLabs/home-care-cost-model</url>
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://opensource.org/licenses/MIT</url>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <name>Dave Cook</name>
+            <email>dave@binx.ca</email>
+        </developer>
+    </developers>
+    <scm>
+        <url>https://github.com/DaveCookVectorLabs/home-care-cost-model</url>
+        <connection>scm:git:https://github.com/DaveCookVectorLabs/home-care-cost-model.git</connection>
+    </scm>
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+</project>

@@ -39,27 +39,114 @@ node_modules/
 # Sphinx
 docs/_build/
 
-# Session state (never commit secrets)
-SESSION_STATE.md
+# ============================================================
+# BINX SECURITY BLOCK — keep in sync across all binx projects.
+# Source of truth: ../CLAUDE.md "NEVER commit/publish internal
+# tracking files" + "Mandatory pre-commit gate".
+# Any addition here must also be added to the sibling projects
+# and to the CLAUDE.md gate grep script.
+# ============================================================
 
 # Internal tracking files — NEVER commit/publish these
-# (see ../CLAUDE.md "NEVER commit/publish internal tracking files")
+SESSION_STATE.md
 LIVE_URLS.md
 PUBLISH_CHECKLIST.md
 TODO.md
 REMOVAL_REQUESTS.md
 
-# Credentials and keys — NEVER commit
+# Registry auth files (one per package registry we publish to)
 .npmrc
 .pypirc
 .cargo/credentials
 .cargo/credentials.toml
+.gem/credentials
+.hex/hex.config
+auth.json
+.m2/settings.xml
+settings-security.xml
+
+# Nostr / crypto keys
+nostr_keys.json
 engines/nostr/nostr_keys.json
 *_keys.json
+*.nsec
+nsec.txt
+
+# GPG / signing keys (private material)
 *.pem
 *.key
+secring.*
+private.asc
+*-private.asc
+privkey.asc
+
+# SSH keys
 id_rsa
+id_rsa.*
 id_ed25519
+id_ed25519.*
+id_ecdsa
+id_ecdsa.*
+*.ppk
+known_hosts
+authorized_keys
+
+# Cloud provider credentials
+.aws/credentials
+.aws/config
+gcloud-key*.json
+service-account*.json
+.azure/
+
+# Env / generic secret files
+.env
+.env.*
+.envrc
+.secrets
+secrets.yml
+secrets.yaml
+.netrc
+_netrc
+
+# Platform-specific API tokens
+kaggle.json
+huggingface_token
+hf_token
+hf_token.txt
+.github_token
+.gitlab-token
+.codeberg-token
+.sr.ht-token
+zenodo_token
+zenodo_token.txt
+orkg_token
+orkg_token.txt
+
+# State / backups (may snapshot any of the above)
+*.bak
+*~
+*.swp
+*.swo
+*.tfstate
+*.tfstate.backup
+*.kdbx
+*.sqlite
+*.sqlite3
+*.db-journal
+backup/
+backups/
+
+# Catch-all credential filenames
+credentials
+credentials.json
+credentials.yml
+credentials.yaml
+token.txt
+token.json
+*.token
+# ============================================================
+# END BINX SECURITY BLOCK
+# ============================================================
 
 # OS
 .DS_Store

@@ -17,6 +17,23 @@ tags:
 size_categories:
 - 1K<n<10K
 pretty_name: Home Care Cost Model — Canadian Service Mix, Rate Bands, and Tax Relief Sensitivity
+configs:
+- config_name: services_canada
+  data_files: home_care_services_canada.csv
+- config_name: tax_parameters_2026
+  data_files: home_care_tax_parameters_2026.csv
+- config_name: subsidy_programs
+  data_files: home_care_subsidy_programs.csv
+- config_name: scenarios
+  data_files: home_care_scenarios.csv
+- config_name: per_province_rate_bands
+  data_files: home_care_per_province_rate_bands.csv
+- config_name: cost_model_archetypes
+  data_files: home_care_cost_model_archetypes.csv
+- config_name: tax_relief_sensitivity
+  data_files: home_care_tax_relief_sensitivity.csv
+- config_name: subsidy_gap
+  data_files: home_care_subsidy_gap.csv
 ---
 
 # Home Care Cost Model — Datasets

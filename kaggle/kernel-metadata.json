@@ -1,0 +1,14 @@
+{
+  "id": "davecook1985/home-care-cost-model-analysis",
+  "title": "Home Care Cost Model — Canadian Service Mix Analysis",
+  "code_file": "home_care_cost_model_analysis.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "false",
+  "enable_gpu": "false",
+  "enable_internet": "false",
+  "keywords": ["home care", "psw", "canada", "health policy", "tax credit"],
+  "dataset_sources": ["davecook1985/home-care-cost-model"],
+  "competition_sources": [],
+  "kernel_sources": []
+}

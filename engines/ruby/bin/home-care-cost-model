@@ -1,0 +1,39 @@
+#!/usr/bin/env ruby
+$LOAD_PATH.unshift File.expand_path("../../lib", __FILE__)
+require "home_care_cost_model"
+require "json"
+
+result = HomeCareCostModel.calculate(
+  adl_katz_score: 2,
+  iadl_lawton_score: 1,
+  province: "BC",
+  household_composition: "with_spouse",
+  cognitive_status: "moderate",
+  mobility_status: "walker",
+  primary_diagnosis_category: "dementia",
+  informal_caregiver_hours_per_week: 20.0,
+  net_family_income_cad: 72000.0,
+  has_dtc: true,
+)
+
+if ARGV.include?("--json")
+  puts JSON.pretty_generate(result)
+else
+  puts "Home Care Cost Model — Ruby Engine v#{HomeCareCostModel::VERSION}"
+  puts "======================================================"
+  puts "Jurisdiction: #{result[:province]}   Tax year: #{result[:tax_year]}"
+  puts "Recommended PSW hours/week:      #{result[:recommended_psw_hours_per_week]}"
+  puts "Recommended housekeeping h/w:    #{result[:recommended_housekeeping_hours_per_week]}"
+  puts "Recommended nursing h/w:         #{result[:recommended_nursing_hours_per_week]}"
+  puts "Service mix:                     #{result[:recommended_service_mix]}"
+  puts "Private pay monthly CAD:         $#{'%.2f' % result[:private_pay_monthly_cad]}"
+  puts "Subsidy value monthly CAD:       $#{'%.2f' % result[:subsidy_value_monthly_cad]}"
+  puts "OoP before credits monthly CAD:  $#{'%.2f' % result[:out_of_pocket_before_credits_monthly_cad]}"
+  puts "Tax credits annual CAD:          $#{'%.2f' % result[:total_credits_value_cad]}"
+  puts "OoP after credits monthly CAD:   $#{'%.2f' % result[:out_of_pocket_after_credits_monthly_cad]}"
+  puts "OoP after credits annual CAD:    $#{'%.2f' % result[:out_of_pocket_after_credits_annual_cad]}"
+  puts "All-PSW comparison monthly CAD:  $#{'%.2f' % result[:all_psw_cost_comparison_monthly_cad]}"
+  puts "Hybrid savings monthly CAD:      $#{'%.2f' % result[:hybrid_savings_vs_all_psw_monthly_cad]}"
+  puts
+  puts "Disclaimer: #{result[:disclaimer]}"
+end

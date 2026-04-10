@@ -1,0 +1,9 @@
+{
+  "title": "The Home Care Cost Model: Personal Support, Housekeeping, and Service Mix Decisions for Aging in Place in Canada",
+  "author": "Dave Cook",
+  "description": "Working paper presenting a parametric cost model for Canadian home care service-mix decisions across all ten provinces and three territories. Takes Katz ADL, Lawton IADL, cognitive status, mobility status, household composition, and primary diagnosis as inputs and returns a recommended service mix (PSW, housekeeping, nursing hours), private-pay cost, subsidised hours, and a full federal-plus-provincial tax relief stack indexed to the 2026 taxation year. Reference model only; not clinical or financial advice.",
+  "category": "Research",
+  "tags": ["home care", "personal support worker", "aging in place", "canada", "health policy", "tax credit"],
+  "license": "CC BY 4.0",
+  "file": "../pdfs/home-care-cost-model-guide.pdf"
+}

@@ -1,0 +1,66 @@
+id,jurisdiction_code,parameter_category,parameter_name,value_cad,rate,tax_year,description,source_id,source_retrieved_date
+1,CA-FED,METC,federal_rate,0.0,0.15,2026,Federal Medical Expense Tax Credit rate (lowest bracket),cra-s1-f1-c1-metc,2026-04-09
+2,CA-FED,METC,net_income_floor_fraction,0.0,0.03,2026,METC: lesser of 3% of net income or the absolute floor is subtracted from qualifying expenses,cra-s1-f1-c1-metc,2026-04-09
+3,CA-FED,METC,absolute_floor,2759,0.0,2026,METC absolute floor for 2026 ($2759 CAD),cra-s1-f1-c1-metc,2026-04-09
+4,CA-FED,DTC,base_amount,9872,0.0,2026,Federal Disability Tax Credit base amount (2026: $9872),cra-s1-f1-c2-dtc,2026-04-09
+5,CA-FED,DTC,supplement_under_18,5758,0.0,2026,DTC supplement for persons under 18 (subject to clawback on childcare expenses),cra-s1-f1-c2-dtc,2026-04-09
+6,CA-FED,DTC,supplement_clawback_threshold,33730,0.0,2026,DTC under-18 supplement begins to phase out at this income,cra-s1-f1-c2-dtc,2026-04-09
+7,CA-FED,CCC,infirm_dependant_base,2635,0.0,2026,Canada Caregiver Credit: infirm dependant amount added to the basic personal amount,cra-canada-caregiver-credit,2026-04-09
+8,CA-FED,CCC,caregiver_base,8375,0.0,2026,Canada Caregiver Credit: full caregiver amount for dependant relatives over 18,cra-canada-caregiver-credit,2026-04-09
+9,CA-FED,CCC,phaseout_start_income,19666,0.0,2026,CCC begins to reduce at this dependant net income,cra-canada-caregiver-credit,2026-04-09
+10,CA-FED,CCC,phaseout_end_income,28041,0.0,2026,CCC fully clawed back at this dependant net income,cra-canada-caregiver-credit,2026-04-09
+11,CA-FED,VIP,housekeeping_annual_ceiling,3072,0.0,2026,"VAC Veterans Independence Program housekeeping reimbursement ceiling (approximate, 2026)",vac-vip-2026,2026-04-09
+12,CA-FED,VIP,grounds_annual_ceiling,1884,0.0,2026,VAC VIP grounds maintenance reimbursement ceiling,vac-vip-2026,2026-04-09
+13,CA-FED,VIP,personal_care_annual_ceiling,9324,0.0,2026,VAC VIP personal care reimbursement ceiling,vac-vip-2026,2026-04-09
+14,ON,METC,provincial_rate,0.0,0.0505,2026,Ontario METC rate — lowest bracket provincial rate applied to qualifying expenses,cra-s1-f1-c1-metc; ontario-428,2026-04-09
+15,ON,METC,provincial_absolute_floor,2923,0.0,2026,Ontario METC absolute floor (2026),cra-s1-f1-c1-metc; ontario-428,2026-04-09
+16,ON,DTC,provincial_base_amount,10250,0.0,2026,Ontario provincial Disability Amount,cra-s1-f1-c1-metc; ontario-428,2026-04-09
+17,ON,CCC,provincial_base_amount,5933,0.0,2026,Ontario provincial caregiver amount,cra-s1-f1-c1-metc; ontario-428,2026-04-09
+18,QC,METC,provincial_rate,0.0,0.14,2026,Quebec METC rate — lowest bracket provincial rate applied to qualifying expenses,cra-s1-f1-c1-metc; revenu-quebec-tp1,2026-04-09
+19,QC,METC,provincial_absolute_floor,2759,0.0,2026,Quebec METC absolute floor (2026),cra-s1-f1-c1-metc; revenu-quebec-tp1,2026-04-09
+20,QC,DTC,provincial_base_amount,3494,0.0,2026,Quebec provincial Disability Amount,cra-s1-f1-c1-metc; revenu-quebec-tp1,2026-04-09
+21,QC,CCC,provincial_base_amount,1311,0.0,2026,Quebec provincial caregiver amount,cra-s1-f1-c1-metc; revenu-quebec-tp1,2026-04-09
+22,BC,METC,provincial_rate,0.0,0.0506,2026,British Columbia METC rate — lowest bracket provincial rate applied to qualifying expenses,cra-s1-f1-c1-metc; bc-428,2026-04-09
+23,BC,METC,provincial_absolute_floor,2605,0.0,2026,British Columbia METC absolute floor (2026),cra-s1-f1-c1-metc; bc-428,2026-04-09
+24,BC,DTC,provincial_base_amount,9428,0.0,2026,British Columbia provincial Disability Amount,cra-s1-f1-c1-metc; bc-428,2026-04-09
+25,BC,CCC,provincial_base_amount,5014,0.0,2026,British Columbia provincial caregiver amount,cra-s1-f1-c1-metc; bc-428,2026-04-09
+26,AB,METC,provincial_rate,0.0,0.1,2026,Alberta METC rate — lowest bracket provincial rate applied to qualifying expenses,cra-s1-f1-c1-metc; ab-428,2026-04-09
+27,AB,METC,provincial_absolute_floor,2824,0.0,2026,Alberta METC absolute floor (2026),cra-s1-f1-c1-metc; ab-428,2026-04-09
+28,AB,DTC,provincial_base_amount,16066,0.0,2026,Alberta provincial Disability Amount,cra-s1-f1-c1-metc; ab-428,2026-04-09
+29,AB,CCC,provincial_base_amount,12307,0.0,2026,Alberta provincial caregiver amount,cra-s1-f1-c1-metc; ab-428,2026-04-09
+30,SK,METC,provincial_rate,0.0,0.105,2026,Saskatchewan METC rate — lowest bracket provincial rate applied to qualifying expenses,cra-s1-f1-c1-metc; sk-428,2026-04-09
+31,SK,METC,provincial_absolute_floor,2837,0.0,2026,Saskatchewan METC absolute floor (2026),cra-s1-f1-c1-metc; sk-428,2026-04-09
+32,SK,DTC,provincial_base_amount,10405,0.0,2026,Saskatchewan provincial Disability Amount,cra-s1-f1-c1-metc; sk-428,2026-04-09
+33,SK,CCC,provincial_base_amount,10405,0.0,2026,Saskatchewan provincial caregiver amount,cra-s1-f1-c1-metc; sk-428,2026-04-09
+34,MB,METC,provincial_rate,0.0,0.108,2026,Manitoba METC rate — lowest bracket provincial rate applied to qualifying expenses,cra-s1-f1-c1-metc; mb-428,2026-04-09
+35,MB,METC,provincial_absolute_floor,1728,0.0,2026,Manitoba METC absolute floor (2026),cra-s1-f1-c1-metc; mb-428,2026-04-09
+36,MB,DTC,provincial_base_amount,6180,0.0,2026,Manitoba provincial Disability Amount,cra-s1-f1-c1-metc; mb-428,2026-04-09
+37,MB,CCC,provincial_base_amount,3605,0.0,2026,Manitoba provincial caregiver amount,cra-s1-f1-c1-metc; mb-428,2026-04-09
+38,NS,METC,provincial_rate,0.0,0.0879,2026,Nova Scotia METC rate — lowest bracket provincial rate applied to qualifying expenses,cra-s1-f1-c1-metc; ns-428,2026-04-09
+39,NS,METC,provincial_absolute_floor,1637,0.0,2026,Nova Scotia METC absolute floor (2026),cra-s1-f1-c1-metc; ns-428,2026-04-09
+40,NS,DTC,provincial_base_amount,7341,0.0,2026,Nova Scotia provincial Disability Amount,cra-s1-f1-c1-metc; ns-428,2026-04-09
+41,NS,CCC,provincial_base_amount,4898,0.0,2026,Nova Scotia provincial caregiver amount,cra-s1-f1-c1-metc; ns-428,2026-04-09
+42,NB,METC,provincial_rate,0.0,0.094,2026,New Brunswick METC rate — lowest bracket provincial rate applied to qualifying expenses,cra-s1-f1-c1-metc; nb-428,2026-04-09
+43,NB,METC,provincial_absolute_floor,2344,0.0,2026,New Brunswick METC absolute floor (2026),cra-s1-f1-c1-metc; nb-428,2026-04-09
+44,NB,DTC,provincial_base_amount,8552,0.0,2026,New Brunswick provincial Disability Amount,cra-s1-f1-c1-metc; nb-428,2026-04-09
+45,NB,CCC,provincial_base_amount,5197,0.0,2026,New Brunswick provincial caregiver amount,cra-s1-f1-c1-metc; nb-428,2026-04-09
+46,NL,METC,provincial_rate,0.0,0.087,2026,Newfoundland and Labrador METC rate — lowest bracket provincial rate applied to qualifying expenses,cra-s1-f1-c1-metc; nl-428,2026-04-09
+47,NL,METC,provincial_absolute_floor,2116,0.0,2026,Newfoundland and Labrador METC absolute floor (2026),cra-s1-f1-c1-metc; nl-428,2026-04-09
+48,NL,DTC,provincial_base_amount,7064,0.0,2026,Newfoundland and Labrador provincial Disability Amount,cra-s1-f1-c1-metc; nl-428,2026-04-09
+49,NL,CCC,provincial_base_amount,3497,0.0,2026,Newfoundland and Labrador provincial caregiver amount,cra-s1-f1-c1-metc; nl-428,2026-04-09
+50,PE,METC,provincial_rate,0.0,0.098,2026,Prince Edward Island METC rate — lowest bracket provincial rate applied to qualifying expenses,cra-s1-f1-c1-metc; pe-428,2026-04-09
+51,PE,METC,provincial_absolute_floor,1768,0.0,2026,Prince Edward Island METC absolute floor (2026),cra-s1-f1-c1-metc; pe-428,2026-04-09
+52,PE,DTC,provincial_base_amount,6890,0.0,2026,Prince Edward Island provincial Disability Amount,cra-s1-f1-c1-metc; pe-428,2026-04-09
+53,PE,CCC,provincial_base_amount,2446,0.0,2026,Prince Edward Island provincial caregiver amount,cra-s1-f1-c1-metc; pe-428,2026-04-09
+54,YT,METC,provincial_rate,0.0,0.064,2026,Yukon METC rate — lowest bracket provincial rate applied to qualifying expenses,cra-s1-f1-c1-metc; yt-428,2026-04-09
+55,YT,METC,provincial_absolute_floor,2759,0.0,2026,Yukon METC absolute floor (2026),cra-s1-f1-c1-metc; yt-428,2026-04-09
+56,YT,DTC,provincial_base_amount,9872,0.0,2026,Yukon provincial Disability Amount,cra-s1-f1-c1-metc; yt-428,2026-04-09
+57,YT,CCC,provincial_base_amount,8375,0.0,2026,Yukon provincial caregiver amount,cra-s1-f1-c1-metc; yt-428,2026-04-09
+58,NT,METC,provincial_rate,0.0,0.059,2026,Northwest Territories METC rate — lowest bracket provincial rate applied to qualifying expenses,cra-s1-f1-c1-metc; nt-428,2026-04-09
+59,NT,METC,provincial_absolute_floor,2759,0.0,2026,Northwest Territories METC absolute floor (2026),cra-s1-f1-c1-metc; nt-428,2026-04-09
+60,NT,DTC,provincial_base_amount,14160,0.0,2026,Northwest Territories provincial Disability Amount,cra-s1-f1-c1-metc; nt-428,2026-04-09
+61,NT,CCC,provincial_base_amount,5167,0.0,2026,Northwest Territories provincial caregiver amount,cra-s1-f1-c1-metc; nt-428,2026-04-09
+62,NU,METC,provincial_rate,0.0,0.04,2026,Nunavut METC rate — lowest bracket provincial rate applied to qualifying expenses,cra-s1-f1-c1-metc; nu-428,2026-04-09
+63,NU,METC,provincial_absolute_floor,2759,0.0,2026,Nunavut METC absolute floor (2026),cra-s1-f1-c1-metc; nu-428,2026-04-09
+64,NU,DTC,provincial_base_amount,15440,0.0,2026,Nunavut provincial Disability Amount,cra-s1-f1-c1-metc; nu-428,2026-04-09
+65,NU,CCC,provincial_base_amount,5560,0.0,2026,Nunavut provincial caregiver amount,cra-s1-f1-c1-metc; nu-428,2026-04-09
